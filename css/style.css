@@ -85,7 +85,7 @@ header {
   background-color: #fc4445;
   /* display: inline-block; */
   display: inline;
-
+  padding: 5px 20px;
   border-radius: 20%;
   color: #424242;
   font-size: 15px;
@@ -147,6 +147,10 @@ section {
   font-size: 25px;
 }
 
+.about p {
+  text-align: left;
+}
+
 .contact {
   background-color: #2f004f;
   padding: 30px;
@@ -165,23 +169,21 @@ section {
 
 @media screen and (min-width: 425px) {
   .nav ul {
-    /* margin-left: auto;  */
     flex-direction: row;
   }
 
   .nav li {
     margin: 10px;
   }
-  /* .splash {
-     font-size: 20px;
-  } */
 
-  /* .header {
-    font-size: 50px;
-  } */
+  .header {
+    font-size: 40px;
+    padding-top: 45px;
+  }
 
-  header {
-    height: 300px;
+  .about {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
@@ -190,7 +192,7 @@ section {
     height: 200px;
   }
   .header {
-    font-size: 30px;
+    font-size: 50px;
   }
   .splash {
     font-size: 20px;
